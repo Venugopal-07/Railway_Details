@@ -31,12 +31,12 @@
 
 ## Details --> models [APP]
 
-| Attributes  | Models Fields  | Constraints   |
-| ------------|:--------------:|--------------:|
-| Train_No    | IntegerField() |               |
-|Train_Name   | CharField      | max_length=50 |
-| Source      | CharField      | max_length=50 |
-| Destination | CharField      | max_length=50 |
+| Attributes  | Models Fields  | Constraints     |
+| ------------|:--------------:|----------------:|
+| Train_No    | IntegerField   |          ()     |
+|Train_Name   | CharField      | (max_length=50) |
+| Source      | CharField      | (max_length=50) |
+| Destination | CharField      | (max_length=50) |
 
 
 ## Root folder Main urls.py
@@ -47,4 +47,4 @@
 ##### urlpatterns = [
     ##### path('admin/', admin.site.urls),
     ##### path('apis/v1/',include('apis.v1.urls')),
-# ]
+##### ]
